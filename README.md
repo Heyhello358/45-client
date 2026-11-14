@@ -14,8 +14,8 @@ Modern PvP-inspired aesthetic with neon green accents (`#39FF00`) on a dark mini
 
 ## Requirements
 
-- Minecraft **1.21.1**
-- Fabric Loader **≥ 0.16.9**
+- Minecraft **1.21.11**
+- Fabric Loader **≥ 0.20.1**
 - Fabric API
 - Java **21**
 
@@ -29,7 +29,7 @@ The output jar will be in `build/libs/45-client-1.0.0.jar`.
 
 ## Installation
 
-1. Install Fabric for Minecraft 1.21.1
+1. Install Fabric for Minecraft 1.21.11
 2. Install Fabric API
 3. Place the 45 Client jar into your `.minecraft/mods` folder
 4. Launch the game
