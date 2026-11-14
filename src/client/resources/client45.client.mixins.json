@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.client45.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

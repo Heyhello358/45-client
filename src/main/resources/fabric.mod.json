@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "client45",
+	"version": "${version}",
+	"name": "45 Client",
+	"description": "Custom Minecraft Java Utility Client - Modern PvP-inspired aesthetic with neon green accents.",
+	"authors": [
+		"45 Client"
+	],
+	"contact": {
+		"homepage": "https://github.com/Heyhello358/45-client",
+		"sources": "https://github.com/Heyhello358/45-client"
+	},
+	"license": "MIT",
+	"icon": "assets/client45/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.client45.Client45"
+		],
+		"client": [
+			"com.client45.client.Client45Client"
+		]
+	},
+	"mixins": [
+		"client45.mixins.json",
+		{
+			"config": "client45.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
